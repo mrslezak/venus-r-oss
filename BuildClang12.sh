@@ -22,7 +22,7 @@ export KBUILD_COMPILER_STRING=$(/home/user/toolchains/proton-clang/bin/clang --v
 export CXXFLAGS="$CXXFLAGS -fPIC"
 export DTC_EXT=dtc
 
-DEFCONFIG="radioactive_defconfig"
+DEFCONFIG="mi11_device_defconfig"
 
 # Paths
 KERNEL_DIR=`pwd`
